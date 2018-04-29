@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 	const html = `
 		<html>
 			<head>
-				<link rel="stylesheet" href="style.css">
+				<link rel="stylesheet" href="css/style.css">
 			</head>
 			<body>
 				<div id="root">${content}</div>
